@@ -1,6 +1,6 @@
 <?php echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'bodyclass' => 'items show')); ?>
 <div id="primary">
-    <h1><?php echo metadata('item', array('Dublin Core','Title')); ?></h1>
+    <h2><?php echo metadata('item', array('Dublin Core','Title')); ?></h2>
 
     <!-- plugin hook (place universal viewer here) -->
        <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>

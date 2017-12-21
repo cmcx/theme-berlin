@@ -1,0 +1,13 @@
+
+## Differences to the Berlin theme
+
+### show.php
+
+- put the Viewer on top of the page
+
+
+### browse.php
+
+- change font size for titles from h2 to h4 (strangely, this is hardcoded in
+  the file browse.php and so I changed it there (and not in any sass/css-file)
+

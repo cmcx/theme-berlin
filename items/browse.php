@@ -18,7 +18,9 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 <?php
 $sortLinks[__('Title')] = 'Dublin Core,Title';
 $sortLinks[__('Creator')] = 'Dublin Core,Creator';
+$sortLinks[__('Date')] = 'Dublin Core, Date';
 $sortLinks[__('Date Added')] = 'added';
+
 ?>
 <div id="sort-links">
     <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
@@ -30,11 +32,12 @@ $sortLinks[__('Date Added')] = 'added';
 <div class="item record">
     <h4><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h4>
     <div class="item-meta">
-    <?php if (metadata('item', 'has files')): ?>
+    
+    <?php /* if (metadata('item', 'has files')): ?>
     <div class="item-img">
         <?php echo link_to_item(item_image()); ?>
     </div>
-    <?php endif; ?>
+    <?php endif; */ ?>
 
     <?php if ($description = metadata('item', array('Dublin Core', 'Description'), array('snippet'=>250))): ?>
     <div class="item-description">
