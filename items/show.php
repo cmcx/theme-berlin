@@ -17,10 +17,13 @@
         <?php echo all_element_texts('item'); ?>
     </div>
 
+<?php /*
     <h4><?php echo __('Files'); ?></h4>
     <div id="item-images">
          <?php echo files_for_item(); ?>
     </div>
+ */ ?>
+
 
    <?php if(metadata('item','Collection Name')): ?>
       <div id="collection" class="element">
