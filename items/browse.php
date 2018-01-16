@@ -17,7 +17,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 
 <?php
 $sortLinks[__('Title')] = 'Dublin Core,Title';
-$sortLinks[__('Creator')] = 'Dublin Core,Creator';
+// $sortLinks[__('Creator')] = 'Dublin Core,Creator';
 $sortLinks[__('Date')] = 'Dublin Core, Date';
 $sortLinks[__('Date Added')] = 'added';
 
@@ -30,7 +30,7 @@ $sortLinks[__('Date Added')] = 'added';
 
 <?php foreach (loop('items') as $item): ?>
 <div class="item record">
-    <h4><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h4>
+    <h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2>
     <div class="item-meta">
     
     <?php /* if (metadata('item', 'has files')): ?>
@@ -38,6 +38,12 @@ $sortLinks[__('Date Added')] = 'added';
         <?php echo link_to_item(item_image()); ?>
     </div>
     <?php endif; */ ?>
+
+    <?php if ($date = metadata('item', array('Dublin Core', 'Date'))): ?>
+    <div class="item-date">
+         <?php echo $date; ?>
+    </div>
+    <?php endif; ?>
 
     <?php if ($description = metadata('item', array('Dublin Core', 'Description'), array('snippet'=>250))): ?>
     <div class="item-description">

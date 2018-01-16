@@ -1,3 +1,6 @@
+<!-- next steps: check in the javascript-folder of the universal-viewer core
+app (and search for a decent tutorial, again)
+
 
 ## Differences to the Berlin theme
 
@@ -8,6 +11,16 @@
 
 ### browse.php
 
-- change font size for titles from h2 to h4 (strangely, this is hardcoded in
-  the file browse.php and so I changed it there (and not in any sass/css-file)
+- do not show images of the files (mostly boring journal print in black and
+  white, nothing to see really)
+- show the date of the item
 
+
+# sass
+
+- changed $base-font-size to 14px (a bigger value)
+- changed $base-line-height to 18px (a bigger value)
+- changed all html headings to smaller values
+- changed *browse-item* settings
+	- inserted new class for date
+	- removed column restriction for the title (commented out)

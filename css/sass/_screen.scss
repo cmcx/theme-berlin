@@ -49,26 +49,26 @@ input[type="checkbox"] {
     }
 
     h1 {
-        font-size: 2.5 * $base-font-size;
-        line-height: 2 * $base-line-height;
+        font-size: 2 * $base-font-size;
+        line-height: 1.8 * $base-line-height;
         text-transform:uppercase;
         letter-spacing: .1em;
         word-break: break-word
     }
 
     h2 {
-        font-size: 2 * $base-font-size;
-        line-height: 2 * $base-line-height;
+        font-size: 1.5 * $base-font-size;
+        line-height: 1.5 * $base-line-height;
     }
 
     h3 {
-        font-size: 1.5 * $base-font-size;
+        font-size: 1.3 * $base-font-size;
         line-height: $base-line-height;;
         color:#015581;
     }
 
     h4, h5 {
-        font-size: 1.25 * $base-font-size;
+        font-size: 1.15 * $base-font-size;
         line-height: $base-line-height;
     }
 
@@ -845,13 +845,20 @@ ul.title-list {
 
 .browse .item h2,
 .browse .item-meta .item-img {
-    @include columns(4);
+//    @include columns(12);
+    font-size: 1.2 * $base-font-size;
 }
 
 .browse .item h2 {
     @include alpha;
     margin-bottom: 0;
     max-width: 100%;
+}
+
+.browse .item-meta .item-date {
+    @include omega;
+    float: right;
+    text-align: right;
 }
 
 .browse .item-meta .item-img {
