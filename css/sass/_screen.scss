@@ -845,7 +845,7 @@ ul.title-list {
 
 .browse .item h2,
 .browse .item-meta .item-img {
-//    @include columns(12);
+    @include columns(12);
     font-size: 1.2 * $base-font-size;
 }
 

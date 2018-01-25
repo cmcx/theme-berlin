@@ -404,7 +404,7 @@ th {
 }
 
 body {
-  font: 12px Helvetica, Arial, sans-serif;
+  font: 13px Helvetica, Arial, sans-serif;
   line-height: 18px;
   color: #333;
   background: #fff;
@@ -446,7 +446,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 32.4px;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -454,18 +454,18 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 19.5px;
   line-height: 27px;
 }
 
 h3 {
-  font-size: 15.6px;
+  font-size: 16.9px;
   line-height: 18px;
   color: #015581;
 }
 
 h4, h5 {
-  font-size: 13.8px;
+  font-size: 14.95px;
   line-height: 18px;
 }
 
@@ -487,7 +487,7 @@ h1 a, h2 a, h3 a {
 
 /* -- Misc Block elements -- */
 p, ul, ol, dl {
-  margin: 1.5em 0;
+  margin: 1.38462em 0;
 }
 
 ul ul, ul ol, ol ol, ol ul {
@@ -529,7 +529,7 @@ table {
 th, td {
   border-bottom: 1px solid #ccc;
   margin: 0;
-  padding: 0.75em 0;
+  padding: 0.69231em 0;
 }
 
 th {
@@ -557,7 +557,7 @@ header {
   margin: 0 auto;
   padding: 0;
   width: 960px;
-  padding: 3em 0;
+  padding: 2.76923em 0;
   position: relative;
 }
 header:after {
@@ -625,7 +625,7 @@ header:after {
   font-weight: normal;
   font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
   color: #015581;
-  font-size: 36px;
+  font-size: 39px;
   line-height: 36px;
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -644,7 +644,7 @@ header:after {
   float: right;
   width: 45%;
   position: relative;
-  font-size: 1.16667em;
+  font-size: 1.07692em;
   line-height: 1.28571em;
 }
 #search-container h2 {
@@ -919,7 +919,7 @@ header:after {
 #primary-nav .subnav a:focus + ul {
   display: block;
   position: absolute;
-  top: 3em;
+  top: 2.76923em;
   margin-top: 1px;
   z-index: 1000;
   -moz-box-shadow: #ccc 0 3px 5px;
@@ -932,11 +932,11 @@ header:after {
   padding: 0;
 }
 #primary-nav .sub-nav ul a {
-  margin-top: -0.75em;
+  margin-top: -0.69231em;
 }
 #primary-nav .sub-nav ul a:before {
   content: "\2014";
-  margin-right: 0.375em;
+  margin-right: 0.34615em;
 }
 #primary-nav .sub-nav li {
   display: block;
@@ -946,9 +946,9 @@ header:after {
 }
 #primary-nav .sub-nav > li {
   border-color: #ccc;
-  border-bottom-width: 0.08333em;
+  border-bottom-width: 0.07692em;
   border-bottom-style: solid;
-  padding-bottom: -0.08333em;
+  padding-bottom: -0.07692em;
 }
 #primary-nav .sub-nav a {
   width: 100%;
@@ -960,7 +960,7 @@ header:after {
   box-sizing: border-box;
   text-decoration: none;
   display: block;
-  padding: 0.75em 18px;
+  padding: 0.69231em 18px;
   background: #fafafa;
 }
 #primary-nav a:hover,
@@ -975,7 +975,7 @@ header:after {
   content: "\f0da";
   margin: -1px 0 0 .5em;
   display: inline-block;
-  width: 1.5em;
+  width: 1.38462em;
   text-align: center;
 }
 #primary-nav [aria-haspopup="true"].open:after {
@@ -983,13 +983,13 @@ header:after {
 }
 
 #secondary-nav, .secondary-nav {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
   overflow: auto;
   border-bottom: 1px solid #ccc;
   clear: both;
 }
 #secondary-nav li, .secondary-nav li {
-  padding: 1.5em 0;
+  padding: 1.38462em 0;
   margin-right: 20px;
 }
 #secondary-nav a, .secondary-nav a {
@@ -1015,13 +1015,13 @@ header:after {
 .pagination {
   float: left;
   padding-left: 0;
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.38462em 0;
 }
 .pagination ul {
   margin-left: 0;
 }
 .pagination li {
-  height: 3em;
+  height: 2.76923em;
   border: solid #e7e7e7;
   border-width: 1px 0 1px 1px;
   float: left;
@@ -1055,7 +1055,7 @@ header:after {
   margin: 0 auto;
   padding: 0;
   width: 960px;
-  padding: 1.5em 10px;
+  padding: 1.38462em 10px;
   z-index: 0;
 }
 #content:after {
@@ -1087,7 +1087,7 @@ header:after {
 
 .image {
   float: left;
-  margin: 0 1.5em 1.5em 0;
+  margin: 0 1.38462em 1.38462em 0;
 }
 
 .image img {
@@ -1117,7 +1117,7 @@ nav + .exhibit {
 .item + .pagination-nav ul,
 .collection + .pagination-nav ul,
 .exhibit + .pagination-nav ul {
-  margin-top: 1.5em;
+  margin-top: 1.38462em;
 }
 
 /* @end */
@@ -1192,8 +1192,8 @@ nav + .exhibit {
 #featured-exhibit {
   overflow: hidden;
   background: #eee;
-  padding: 1.5em 20px;
-  margin-bottom: 1.5em;
+  padding: 1.38462em 20px;
+  margin-bottom: 1.38462em;
 }
 .featured h2,
 #featured-exhibit h2 {
@@ -1201,14 +1201,14 @@ nav + .exhibit {
 }
 .featured h3,
 #featured-exhibit h3 {
-  margin: 0 0 1em;
+  margin: 0 0 0.92308em;
 }
 .featured img,
 #featured-exhibit img {
   float: left;
   border: 1px solid #ccc;
   padding: 2px;
-  height: 10.5em;
+  height: 9.69231em;
   width: auto;
   background-color: #fff;
 }
@@ -1216,10 +1216,10 @@ nav + .exhibit {
 #recent-items .item {
   overflow: hidden;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
 }
 #recent-items .item .image {
-  height: 6em;
+  height: 5.53846em;
 }
 #recent-items .item h3 {
   margin-top: 0;
@@ -1236,7 +1236,7 @@ nav + .exhibit {
   margin: 0 auto;
   padding: 0;
   width: 960px;
-  padding: 1.5em 10px;
+  padding: 1.38462em 10px;
 }
 .items #content:after {
   content: "\0020";
@@ -1276,7 +1276,7 @@ nav + .exhibit {
 
 #sort-links-list {
   display: inline-block;
-  margin: 0.75em 0 0.75em 10px;
+  margin: 0.69231em 0 0.69231em 10px;
 }
 
 .desc a:after, .asc a:after {
@@ -1321,20 +1321,20 @@ ul.title-list {
 }
 
 .items.show h3 {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.69231em;
 }
 
 /* Items Classes*/
 .element {
   overflow: hidden;
   clear: both;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
 }
 
 .browse .item {
   clear: both;
   border-bottom: 1px solid #eee;
-  padding: 3em 0;
+  padding: 2.76923em 0;
   float: left;
   width: 100%;
 }
@@ -1364,7 +1364,7 @@ ul.title-list {
 
 .item .item-file a {
   display: block;
-  height: 9em;
+  height: 8.30769em;
 }
 .item .item-file a img {
   height: 100%;
@@ -1432,7 +1432,36 @@ ul.title-list {
 /* @group ----- Items/Browse ----- */
 .browse .item h2,
 .browse .item-meta .item-img {
-  font-size: 14.4px;
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+  font-size: 15.6px;
+}
+@media only screen and (max-width: 767px) {
+  .browse .item h2,
+  .browse .item-meta .item-img {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .browse .item h2,
+  .browse .item-meta .item-img {
+    width: 556px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .browse .item h2,
+  .browse .item-meta .item-img {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .browse .item h2,
+  .browse .item-meta .item-img {
+    width: 420px;
+  }
 }
 
 .browse .item h2 {
@@ -1454,7 +1483,7 @@ ul.title-list {
 }
 
 .browse .item-img img {
-  height: 10.5em;
+  height: 9.69231em;
 }
 
 .browse .item-meta {
@@ -1521,7 +1550,7 @@ ul.title-list {
 }
 
 .browse .item-meta .item-description {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
 }
 .browse .item-meta .item-description:only-of-type {
   margin-bottom: 0;
@@ -1552,7 +1581,7 @@ ul.title-list {
 /* @end */
 /* @group ----- Items/Search ----- */
 .field {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
   overflow: hidden;
 }
 
@@ -1561,7 +1590,7 @@ ul.title-list {
 }
 
 .search-entry select {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.69231em;
 }
 
 .search-entry input[type=text] {
@@ -1595,11 +1624,11 @@ ul.title-list {
   border-bottom: 1px solid #eee;
   float: left;
   width: 100%;
-  padding-top: 1.5em;
+  padding-top: 1.38462em;
 }
 .browse .collection.record .view-items-link,
 .browse .exhibit .view-items-link {
-  margin-bottom: 2.25em;
+  margin-bottom: 2.07692em;
 }
 .browse .collection.record h3,
 .browse .exhibit h3 {
@@ -1616,12 +1645,12 @@ ul.title-list {
   -moz-box-shadow: -5px -5px 0 -1px #f2f2f2, -5px -5px 0 #ccc, -8px -8px 0 -1px #ddd, -8px -8px 0 #CCC;
   -webkit-box-shadow: -5px -5px 0 -1px #f2f2f2, -5px -5px 0 #ccc, -8px -8px 0 -1px #ddd, -8px -8px 0 #CCC;
   box-shadow: -5px -5px 0 -1px #f2f2f2, -5px -5px 0 #ccc, -8px -8px 0 -1px #ddd, -8px -8px 0 #CCC;
-  margin: 0 1.5em 1.5em 9px;
+  margin: 0 1.38462em 1.38462em 9px;
 }
 
 .collection .image img,
 .exhibit .image img {
-  height: 10.5em;
+  height: 9.69231em;
 }
 
 .browse .collection h2,
@@ -1632,7 +1661,7 @@ ul.title-list {
   margin-right: 10px;
   width: 220px;
   margin-left: 0;
-  margin: 0 0 0.75em;
+  margin: 0 0 0.69231em;
   max-width: 100%;
 }
 @media only screen and (max-width: 767px) {
@@ -1665,7 +1694,7 @@ ul.title-list {
   margin-right: 0;
   float: right;
   text-align: right;
-  height: 10.5em;
+  height: 9.69231em;
 }
 .browse .collection .image img,
 .browse .exhibit .image img {
@@ -1703,7 +1732,7 @@ ul.title-list {
 
 .collection-description p:first-of-type,
 .view-items-link:only-child {
-  margin-top: 0.75em;
+  margin-top: 0.69231em;
 }
 
 .browse .collection .element {
@@ -1714,11 +1743,11 @@ ul.title-list {
 /* @group ----- Collections/Show ----- */
 .collections .item-img {
   float: left;
-  margin: 0 1.5em 0 0;
+  margin: 0 1.38462em 0 0;
 }
 .collections .item-img a {
   display: block;
-  height: 6em;
+  height: 5.53846em;
   border: 1px solid #ccc;
   padding: 2px;
 }
@@ -1730,16 +1759,16 @@ ul.title-list {
 .collections .item {
   overflow: hidden;
   border-color: #ccc;
-  border-top-width: 0.08333em;
+  border-top-width: 0.07692em;
   border-top-style: solid;
-  padding-top: -0.08333em;
-  margin-top: 1.5em;
+  padding-top: -0.07692em;
+  margin-top: 1.38462em;
 }
 
 /* @end */
 /* @group ----- Search Results ----- */
 #search-results + .pagination {
-  margin-top: 2.25em;
+  margin-top: 2.07692em;
 }
 
 #search-results td {
@@ -1748,8 +1777,8 @@ ul.title-list {
 
 #search-results .image {
   float: left;
-  height: 6em;
-  margin: 0 1.5em 0 0;
+  height: 5.53846em;
+  margin: 0 1.38462em 0 0;
 }
 #search-results .image img {
   height: 100%;
@@ -1760,13 +1789,13 @@ ul.title-list {
   padding-left: 0;
   list-style-type: none;
   border-bottom: 1px solid #eee;
-  margin: -0.75em 0 0;
+  margin: -0.69231em 0 0;
 }
 #item-filters ul > li, #search-filters ul > li {
   display: inline-block;
   background-color: #eee;
-  padding: 0.375em 0.75em;
-  margin: 0 0.75em 0.75em 0;
+  padding: 0.34615em 0.69231em;
+  margin: 0 0.69231em 0.69231em 0;
 }
 #item-filters ul > li:last-child:after, #search-filters ul > li:last-child:after {
   content: "\00A0";
@@ -1794,7 +1823,7 @@ footer {
   padding: 0;
   width: 960px;
   overflow: hidden;
-  margin-top: 1.5em;
+  margin-top: 1.38462em;
 }
 footer:after {
   content: "\0020";
@@ -1875,19 +1904,19 @@ footer nav + p {
 }
 #exhibit-pages > ul {
   margin-left: 0;
-  border-top-width: 0.08333em;
+  border-top-width: 0.07692em;
   border-top-style: solid;
-  padding-top: 1.41667em;
+  padding-top: 1.30769em;
   border-color: #eee;
   padding-left: 0;
   list-style-type: none;
 }
 #exhibit-pages > ul > li {
-  border-bottom-width: 0.08333em;
+  border-bottom-width: 0.07692em;
   border-bottom-style: solid;
-  padding-bottom: 1.41667em;
+  padding-bottom: 1.30769em;
   border-color: #eee;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
 }
 #exhibit-pages ul li > ul {
   padding-left: 1.5em;
@@ -1984,7 +2013,7 @@ footer nav + p {
 
 #exhibit-page-navigation {
   clear: none;
-  margin: 3em 0 1.5em;
+  margin: 2.76923em 0 1.38462em;
 }
 
 .exhibit .description,
@@ -2021,12 +2050,12 @@ footer nav + p {
 }
 .exhibit .description p:first-of-type,
 .exhibit .description ~ * p:first-of-type {
-  margin-top: 0.75em;
+  margin-top: 0.69231em;
 }
 
 .exhibit .description ~ * {
   display: block;
-  margin: 1.5em auto;
+  margin: 1.38462em auto;
   padding: 0 40px 0 80px;
   float: none;
   -moz-box-sizing: content-box;
@@ -2035,7 +2064,7 @@ footer nav + p {
 }
 
 .exhibit-items .download-file:last-child {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.38462em;
 }
 
 /* @end */
@@ -2062,7 +2091,7 @@ footer nav + p {
   #search-container {
     clear: both;
     width: 100%;
-    margin-top: 1.5em;
+    margin-top: 1.38462em;
     margin-bottom: 0em;
   }
 
@@ -2158,7 +2187,7 @@ footer nav + p {
     float: none;
     width: 100%;
     text-align: left;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.38462em;
   }
 
   /* @end */
@@ -2175,25 +2204,25 @@ footer nav + p {
   /* @end */
   /* @group ----- Items/Browse ----- */
   .browse .item img {
-    margin-bottom: 1.5em;
-    margin-top: 1.5em;
+    margin-bottom: 1.38462em;
+    margin-top: 1.38462em;
   }
 
   .browse .item.record h2 {
-    margin-bottom: 0.75em;
+    margin-bottom: 0.69231em;
   }
 
   .browse .item-meta .item-img {
     width: auto;
     float: left;
-    margin: 0 1.5em 0 0;
+    margin: 0 1.38462em 0 0;
   }
   .browse .item-meta .item-img img {
     margin-top: 0em;
   }
 
   .browse .item {
-    padding: 1.5em 0;
+    padding: 1.38462em 0;
   }
 
   .browse .item-meta > div {
@@ -2213,7 +2242,7 @@ footer nav + p {
   }
 
   .browse .collection .image {
-    margin: 1.5em 1.5em 1.5em 10px;
+    margin: 1.38462em 1.38462em 1.38462em 10px;
     float: left;
   }
 
