@@ -1,5 +1,3 @@
-<!-- next steps: check in the javascript-folder of the universal-viewer core
-app (and search for a decent tutorial, again)
 
 
 ## Differences to the Berlin theme
@@ -7,6 +5,8 @@ app (and search for a decent tutorial, again)
 ### show.php
 
 - put the Viewer on top of the page
+- use a custom citation style as defined in custom.php, using
+  DC:BibliographicCitation
 
 
 ### browse.php
@@ -18,7 +18,8 @@ app (and search for a decent tutorial, again)
 
 # sass
 
-- changed $base-font-size to 14px (a bigger value)
+- changed base width in skeleton.scss from 960 to 1020px
+- changed $base-font-size to a slightly bigger value
 - changed $base-line-height to 18px (a bigger value)
 - changed all html headings to smaller values
 - changed *browse-item* settings
