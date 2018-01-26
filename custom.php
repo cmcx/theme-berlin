@@ -8,11 +8,11 @@ function mbc_citation($item){
 
 	$biblio = metadata($item, array('Dublin Core', 'Bibliographic Citation'));
         
-        $today = date("F j, Y");
+        $today = date("d.m.Y");
         
 	$url = WEB_ROOT.'/items/show/'.$item->id;
 
-	$citation = $biblio . '<em> ' . $publication . '</em>, ' . 'accessed ' . $today . ', ' . $url . ' test.';
+	$citation = $biblio . '<em> ' . $publication . '</em>, ' . 'Zugriff am ' . $today . ', ' . $url;
 
         return $citation;
 }
