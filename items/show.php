@@ -1,23 +1,24 @@
 <?php echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'bodyclass' => 'items show')); ?>
 <div id="primary">
-    <h2><?php echo metadata('item', array('Dublin Core','Title')); ?></h2>
+    <h2><?php echo metadata('item', array('Dublin Core', 'Creator')) . ': ' . metadata('item', array('Dublin Core','Title')); ?></h2>
 
-    <!-- plugin hook (place universal viewer here) -->
+
+	<!-- plugin hook (place universal viewer here) -->
        <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
-    <!-- The following prints a citation for this item. -->
+        <!-- The following prints a citation for this item. -->
     <div id="item-citation" class="element">
-        <h4><?php echo __('Citation'); ?></h4>
-        <div class="element-text"><?php echo metadata('item','citation',array('no_escape'=>true)); ?></div>
+        <h4><?php echo __('Zitierempfehlung'); ?></h4>
+	<div class="element-text"><?php echo mbc_citation($item); ?></div> <!-- custom citation format from custom.php -->
     </div>
 
-
     <!-- Items metadata -->
-    <div id="item-metadata">
+    <div class="element-text"> <!-- id="item-metadata"> -->
         <?php echo all_element_texts('item'); ?>
     </div>
 
-<?php /*
+	
+	<?php /*
     <h4><?php echo __('Files'); ?></h4>
     <div id="item-images">
          <?php echo files_for_item(); ?>

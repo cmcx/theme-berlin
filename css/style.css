@@ -556,7 +556,7 @@ header {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1020px;
   padding: 2.76923em 0;
   position: relative;
 }
@@ -587,7 +587,7 @@ header:after {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1020px;
 }
 #header-image:after {
   content: "\0020";
@@ -801,7 +801,7 @@ header:after {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1020px;
   z-index: 50;
   /* mega menu list */
   /* a top level navigation item in the mega menu */
@@ -910,7 +910,7 @@ header:after {
 }
 #primary-nav .sub-nav.open {
   display: block;
-  width: 160px;
+  width: 171.25px;
 }
 #primary-nav .sub-nav.open li {
   width: 100%;
@@ -1054,7 +1054,7 @@ header:after {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1020px;
   padding: 1.38462em 10px;
   z-index: 0;
 }
@@ -1128,7 +1128,7 @@ nav + .exhibit {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 460px;
+  width: 490px;
   margin-left: 0;
   margin-right: 0;
   padding-right: 10px;
@@ -1159,7 +1159,7 @@ nav + .exhibit {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 460px;
+  width: 490px;
   margin-right: 0;
   padding-left: 10px;
 }
@@ -1235,7 +1235,7 @@ nav + .exhibit {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1020px;
   padding: 1.38462em 10px;
 }
 .items #content:after {
@@ -1436,7 +1436,7 @@ ul.title-list {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 700px;
+  width: 745px;
   font-size: 15.6px;
 }
 @media only screen and (max-width: 767px) {
@@ -1491,7 +1491,7 @@ ul.title-list {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 700px;
+  width: 745px;
   margin: 0;
   max-width: 100%;
 }
@@ -1524,7 +1524,7 @@ ul.title-list {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 460px;
+  width: 490px;
   margin: 0;
   max-width: 100%;
 }
@@ -1659,7 +1659,7 @@ ul.title-list {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 220px;
+  width: 235px;
   margin-left: 0;
   margin: 0 0 0.69231em;
   max-width: 100%;
@@ -1707,7 +1707,7 @@ ul.title-list {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 520px;
+  width: 553.75px;
 }
 @media only screen and (max-width: 767px) {
   .collection-meta {
@@ -1821,7 +1821,7 @@ footer {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1020px;
   overflow: hidden;
   margin-top: 1.38462em;
 }
@@ -1886,7 +1886,7 @@ footer nav + p {
 }
 
 #exhibit-pages {
-  width: 220px;
+  width: 235px;
   display: inline-block;
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -1962,7 +1962,7 @@ footer nav + p {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 700px;
+  width: 745px;
   margin-left: 0;
   padding-right: 20px;
   margin-left: 0;
@@ -2022,7 +2022,7 @@ footer nav + p {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  width: 520px;
+  width: 553.75px;
 }
 @media only screen and (max-width: 767px) {
   .exhibit .description,
@@ -2113,7 +2113,7 @@ footer nav + p {
     position: relative;
     margin: 0 auto;
     padding: 0;
-    width: 960px;
+    width: 1020px;
     zoom: 1;
   }
   #mobile-nav:after {
